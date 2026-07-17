@@ -20,10 +20,10 @@ for line in lines:
     if (line[:2] == "# "):
         line = line[2:]
         if (not first_section):
-            html_string = html_string + "</span>"
+            html_string = html_string + "</section>"
         else:
             first_section = False
-        html_string = html_string + "<span class=\"block\"><h1>== " + line + " ==</h1>"
+        html_string = html_string + "<section class=\"block\"><h1>== " + line + " ==</h1>"
 
     # handle rest
     else:
@@ -44,7 +44,7 @@ for line in lines:
 
         html_string = html_string + "<p>" + line + "</p>"
 
-html_string = html_string + "</span>"
+html_string = html_string + "</section>"
 
 ### Insert Into Site Template
 
