@@ -1,2 +1,2 @@
-made with handcrafted vanilla html/css/js just to feel something
+made with handcrafted html/css/js just to feel something
 
