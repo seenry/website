@@ -1,0 +1,94 @@
+@font-face {
+	font-family: Atkinson;
+	src: url("./AtkinsonHyperlegibleMono-VariableFont_wght.ttf");
+}
+
+:root {
+    --hair-space: 2px;
+    --small-space: 8px;
+}
+
+body {
+    margin: 0;
+	font-family: Atkinson;
+	font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+}
+
+*::selection {
+    background-color: black;
+    color: white;
+}
+
+#main-wrapper {
+    box-sizing: border-box;
+    width: 60vw;
+    min-width: 600px;
+    height: 100%;
+    padding: 1em 0;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--small-space);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: var(--hair-space);
+}
+
+.block > p {
+    --main-indent: 1ch;
+    --break-indent: -1ch;
+    margin-left: calc(var(--main-indent) - var(--break-indent));
+    text-indent: var(--break-indent);
+    hyphens: auto;
+}
+
+h1 {
+	font-size: 1em;
+	font-weight: bold;
+    margin: 0;
+}
+
+p {
+	margin: 0px;
+}
+
+p a {
+    font-style: italic;
+	text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    color: black;
+    hyphens: inherit;
+}
+p a::selection {
+    text-decoration-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#email-link {
+    font-style: italic;
+    text-decoration-line: underline;
+	text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+}
+
+.copy-notif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.777);
+    user-select: none;
+}
+
