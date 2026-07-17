@@ -1,2 +1,1 @@
-made with handcrafted html/css/js just to feel something
-
+handcrafted just to feel something
