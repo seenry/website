@@ -6,7 +6,6 @@
 :root {
     --hair-space: 2px;
     --small-space: 8px;
-    cursor: url("./cursor.png"), auto;
 }
 
 body {

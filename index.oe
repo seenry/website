@@ -5,10 +5,10 @@ My research primarily lies within HPC; after all, if computer science is interes
 I can be contacted at s.rhee@nyu.edu or by pure chance in public.
 
 # on research
-Just about nobody dislikes performance, but actually doing performance engineering is a complete pain (especially as hardware stacks get more complex). This is not news. But b/c of that, imho the most exciting space in HPC research isn't just about exposing performance, but also about making it tractable to actually extract said performance.
-Right now, I'm most curious about how to better leverage programmable networks in distributed workloads and how to improve tooling around programmable network, and at the moment, am interested in seeing how formal verification might guide automated code generation in these contexts.
+Just about nobody <em>dislikes</em> performance, but actually doing performance engineering is a complete pain (especially as hardware stacks get more complex). This is not news. But b/c of that, (imho) the most exciting space in HPC research isn't just about exposing performance, but also about making said performance tractable to actually extract.
+Right now, I'm most curious about how to better leverage programmable networks in distributed workloads and how to improve tooling around programmable networks, and at the moment, am interested in seeing how formal verification might guide automated code generation in these contexts.
 
-# past
+# history
 <b>25 fa. :: <a>parameterized gpu collectives,https://cs.nyu.edu/~scr8455/param.pdf</a> @ MASCOTS 25</b>
 25 fa. :: started grad @ NYU
 25 su. :: interned @ Argonne National Laboratory
