@@ -23,7 +23,7 @@ for line in lines:
             html_string = html_string + "</section>"
         else:
             first_section = False
-        html_string = html_string + "<section class=\"block\"><h1>== " + line + " ==</h1>"
+        html_string = html_string + "<section class=\"block\"><h2>== " + line + " ==</h2>"
 
     # handle rest
     else:
