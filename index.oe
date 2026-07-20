@@ -5,7 +5,7 @@ My research primarily lies within HPC; after all, if computer science is interes
 I can be contacted at s.rhee@nyu.edu or by pure chance in public.
 
 # on research
-(Almost) nobody <em>dislikes</em> performance, but actually doing performance engineering is a complete pain, especially as hardware stacks get more complex. This is not news. But b/c of that, the most exciting space in HPC research isn't just about exposing performance, but also about making said performance tractable to actually extract.
+The most exciting spaces in HPC research (imho) aren't just about exposing performance, but also about making said performance tractable to actually extract.
 Right now, I'm most curious about how to better leverage programmable networks in distributed workloads and how to improve tooling around programmable networks, and at the moment, my active research is exploring how formal verification might guide automated code generation in these contexts.
 
 # history
