@@ -59,11 +59,14 @@ p {
 	margin: 0px;
 }
 
-p a {
+a {
     font-style: italic;
 	text-decoration-style: dashed;
     text-decoration-thickness: 1px;
     color: black;
+}
+
+p a {
     hyphens: inherit;
 }
 p a::selection {

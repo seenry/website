@@ -39,7 +39,10 @@ for line in lines:
         for i in range(len(line)):
             if (i%2 == 1):
                 line[i] = line[i].split(",")
-                line[i] = "<a target=\"_blank\" href=\"" + line[i][1] + "\">" + line[i][0] + "</a>"
+                if (line[i][1][0] != "/"):
+                    line[i] = "<a target=\"_blank\" href=\"" + line[i][1] + "\">" + line[i][0] + "</a>"
+                else:
+                    line[i] = "<a href=\"" + line[i][1] + "\">" + line[i][0] + "</a>"
         line = "".join(line)
 
         html_string = html_string + "<p>" + line + "</p>"
